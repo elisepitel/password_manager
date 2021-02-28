@@ -66,6 +66,7 @@ email_label = Label(text='Email/Username:')
 email_label.grid(column=0, row=2)
 email_entry = Entry(width=35)
 email_entry.grid(column=1, row=2, columnspan=2)
+# change the prefilled email for your email:
 email_entry.insert(0, "prefilled@email.com")
 
 password_label = Label(text='Password:')
